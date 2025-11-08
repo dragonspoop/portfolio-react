@@ -18,7 +18,7 @@ const Tryhackme = () => {
         <div>
           <div className="grid grid-4">
             {badges.map((badge) => (
-              <div className="card" style={{ textAlign: "center"}}>
+              <div className="card" style={{ justifyItems:'center', textAlign: "center"}}>
                 <img src={badge.img} alt="" style={{ width: 140 }} />
                 <div className="card">
                   <div style={{fontWeight:'bold',textShadow:'2px 2px 1px #0082b5ff'}}>{badge.name}</div>
