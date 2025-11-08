@@ -1,23 +1,15 @@
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import Projects from './components/Projects.jsx'
-import Skills from './components/Skills.jsx'
-import Contact from './components/Contact.jsx'
-import Tryhackme from './components/Tryhackme.jsx'
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
+import ReportsPage from "./pages/Reportspage";
 
 export default function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Projects />
-        <Skills />
-        <Tryhackme />
-        {/* <Experience /> */}
-        <Contact />
-      </main>
-      {/* <Footer /> */}
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/report" element={<ReportsPage />} />
+      </Routes>
+    </Router>
   )
 }

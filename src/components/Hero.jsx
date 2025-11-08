@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="section">
+    <section className="mt-10 section">
       <div className="container hero">
         <div>
           <span className="badge">Software Developer • MERN / Java</span>
