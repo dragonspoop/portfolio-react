@@ -11,7 +11,7 @@ export const Reports = () => {
             {reports.slice(0,3).map(p => <ReportsCard key={p.slug} {...p} />)}
         </div>
       <Link 
-      className='btn mt-10 absolute right-40'
+      className='btn sub mt-10 absolute right-40'
        to={`/report`}> See more +
       </Link>
       </div>

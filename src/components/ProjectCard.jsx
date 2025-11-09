@@ -33,12 +33,12 @@ export default function ProjectCard({
       </div>
       <div style={{ display: "flex", gap: 10 }}>
         {demo && (
-          <a className="btn" href={demo} target="_blank" rel="noreferrer">
+          <a className="btn sub" href={demo} target="_blank" rel="noreferrer">
             Live Demo
           </a>
         )}
         {repo && (
-          <a className="btn" href={repo} target="_blank" rel="noreferrer">
+          <a className="btn sub" href={repo} target="_blank" rel="noreferrer">
             GitHub
           </a>
         )}

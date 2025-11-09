@@ -153,9 +153,9 @@ Finished
 ===============================================================
 ```
 
-![robots.txt](/images/image.png)
+![robots.txt](/images/boiler/image.png)
 
-![image.png](/images/image1.png)
+![image.png](/images/boiler/image1.png)
 
 ```bash
 ┌──(ajay㉿ajay)-[~/tryhackme/medium/boiler-ctf]
@@ -207,13 +207,13 @@ Finished
 
 ```
 
-![image.png](/images/image2.png)
+![image.png](/images/boiler/image2.png)
 
-![image.png](/images/image3.png)
+![image.png](/images/boiler/image3.png)
 
-![image.png](/images/image4.png)
+![image.png](/images/boiler/image4.png)
 
-![image.png](/images/image5.png)
+![image.png](/images/boiler/image5.png)
 
 ```bash
 ┌──(ajay㉿ajay)-[~/tryhackme/medium/boiler-ctf]
@@ -255,21 +255,21 @@ Finished
 
 ```
 
-![image.png](/images/image6.png)
+![image.png](/images/boiler/image6.png)
 
-![image.png](/images/image7.png)
+![image.png](/images/boiler/image7.png)
 
-![image.png](/images/image8.png)
+![image.png](/images/boiler/image8.png)
 
-![image.png](/images/image9.png)
+![image.png](/images/boiler/image9.png)
 
-![image.png](/images/image10.png)
+![image.png](/images/boiler/image10.png)
 
-![image.png](/images/image11.png)
+![image.png](/images/boiler/image11.png)
 
-![image.png](/images/image12.png)
+![image.png](/images/boiler/image12.png)
 
-![image.png](/images/image13.png)
+![image.png](/images/boiler/image13.png)
 
 ```bash
 ┌──(ajay㉿ajay)-[~/tryhackme/medium/boiler-ctf]
@@ -305,9 +305,9 @@ Finished
 ===============================================================
 ```
 
-![image.png](/images/image14.png)
+![image.png](/images/boiler/image14.png)
 
-![image.png](/images/image15.png)
+![image.png](/images/boiler/image15.png)
 
 ## SSH
 

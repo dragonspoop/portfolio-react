@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 export default function ReportsCard({
   title,
+  id,
   description,
   tags,
 }){
@@ -15,12 +18,13 @@ export default function ReportsCard({
           </span>
         ))}
       </div>
-      {/* <Link
-        to={`/report/${id}`}
-        className="text-blue-400 hover:text-blue-300 text-sm"
-      >
-        Read Full Report →
-      </Link> */}
+      {
+        <Link to={`/report/${id}`}
+        className="btn sub"
+        >
+        Read Full Reports →
+        </Link>
+      }
       </div>
   );
 }
