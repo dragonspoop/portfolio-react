@@ -1,12 +1,13 @@
 export default function Header() {
   return (
-    <header id="home" className="fixed">
+    <header className="fixed">
       <div className="container">
         <nav>
+          <a href="#home">
           <div className="brand">
             <img src="/favicon.svg" alt="" />
             <strong>Ajay</strong>
-          </div>
+          </div></a>
           <div className="links">
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>

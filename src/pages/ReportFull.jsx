@@ -31,8 +31,8 @@ export default function ReportsFull() {
       </Link>
       <article
         className="prose prose-invert max-w-350 mx-auto mt-8
-  bg-neutral-900 border border-neutral-800 rounded-2xl p-5
-  transition-all duration-300 hover:shadow-[0_0_50px_rgba(59,130,246,0.4)]"
+  bg-neutral-800 border border-neutral-800 rounded-2xl p-5
+  transition-all duration-300 hover:shadow-[0_0_50px_rgba(59,130,246,0.2)]"
       >
         <ReactMarkdown>{content}</ReactMarkdown>
       </article>
