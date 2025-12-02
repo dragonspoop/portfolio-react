@@ -1,8 +1,12 @@
 export default [
     {
-        name:'30 day streak',
-        img:'/badges/streak30.svg',
-        desc:'Hacking for 30 days solid'
+        name:'Ruby League',
+        img:'/badges/league-ruby.svg',
+        desc:'Ruby League 1st place'
+    },{
+        name:'OWASP top 10',
+        img:'/badges/owasptop10.svg',
+        desc:'Understanding every OWASP vulnerability'
     },{
         name:'Blue',
         img:'/badges/blue.svg',
@@ -15,10 +19,6 @@ export default [
         name:'Mr Robot',
         img:'/badges/mrrobot.svg',
         desc:'Completing the Mr. Robot room'
-    },{
-        name:'OWASP top 10',
-        img:'/badges/owasptop10.svg',
-        desc:'Understanding every OWASP vulnerability'
     },{
         name:'Security Awareness',
         img:'/badges/securityawareness.svg',
@@ -36,6 +36,10 @@ export default [
         img:'/badges/webbed.svg',
         desc:'Understands how the world wide web works'
     },{
+        name:'30 day streak',
+        img:'/badges/streak30.svg',
+        desc:'Hacking for 30 days solid'
+    },{
         name:'7 day streak',
         img:'/badges/streak7.svg',
         desc:'Achieving a 7 day hacking streak'
@@ -43,6 +47,6 @@ export default [
         name:'3 day streak',
         img:'/badges/streak3.svg',
         desc:'Achieving a 3 day hacking streak'
-    },
+    }
 
 ]

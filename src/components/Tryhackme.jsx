@@ -1,4 +1,6 @@
-import badges from "../data/badges";
+// import badges from "../data/badges";
+
+import Badges from "./Badges";
 
 const Tryhackme = () => {
   return (
@@ -21,34 +23,8 @@ const Tryhackme = () => {
             scrolling="no"
           ></iframe>
         </div>
-
-        <div className="sub" style={{ fontSize: "1.5em" }}>
-          Badges
-        </div>
-        <div>
-          <div className="grid grid-4">
-            {badges.map((badge) => (
-              <div
-                className="card"
-                style={{ justifyItems: "center", textAlign: "center" }}
-              >
-                <img src={badge.img} alt="" style={{ width: 140 }} />
-                <div className="card">
-                  <div
-                    style={{
-                      fontWeight: "bold",
-                      textShadow: "2px 2px 1px #0082b5ff",
-                    }}
-                  >
-                    {badge.name}
-                  </div>
-                  <span className="sub">{badge.desc}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
+      <Badges></Badges>
     </section>
   );
 };

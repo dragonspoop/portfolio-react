@@ -2,6 +2,7 @@
 :root {
   --bg: #0f172a;
   --panel: #111827;
+  --panel2: #182237;
   --muted: #94a3b8;
   --text: #e5e7eb;
   --brand: #22d3ee;
@@ -78,6 +79,9 @@ a {
 }
 .grid-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .grid-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));

@@ -12,6 +12,7 @@ export default function Skills() {
               <h3 style={{ marginBottom: 15 }}>{s.group}</h3>
               {s.items.map(({ name, progress }) => (
                 <div
+                  key={name}
                   style={{
                     display: "flex",
                     justifyContent: "space-between",
