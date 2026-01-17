@@ -31,22 +31,5 @@ export default [
         name:'World Wide Web',
         img:'/badges/howthewebworks.svg',
         desc:"Completing the 'How The Web Works' module"
-    },{
-        name:'Webbed',
-        img:'/badges/webbed.svg',
-        desc:'Understands how the world wide web works'
-    },{
-        name:'30 day streak',
-        img:'/badges/streak30.svg',
-        desc:'Hacking for 30 days solid'
-    },{
-        name:'7 day streak',
-        img:'/badges/streak7.svg',
-        desc:'Achieving a 7 day hacking streak'
-    },{
-        name:'3 day streak',
-        img:'/badges/streak3.svg',
-        desc:'Achieving a 3 day hacking streak'
     }
-
 ]

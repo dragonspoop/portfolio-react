@@ -1,21 +1,22 @@
 export default [
   {
-    company: 'Freelance',
-    role: 'Full‑Stack Developer',
-    period: '2024 — Present',
+    company: "Freelance Security Consultant",
+    role: "Penetration Tester & Security Researcher",
+    period: "2024 — Present",
     points: [
-      'Built responsive React front-ends and REST APIs.',
-      'Optimized web app performance (first contentful paint < 1.2s on Vite builds).',
-      'Collaborated with designers and clients to ship on time.'
-    ]
+      "Conducted comprehensive penetration tests on web and network infrastructure.",
+      "Identified and documented critical vulnerabilities with detailed remediation guidance.",
+      "Delivered security assessments and risk analysis reports to clients.",
+    ],
   },
   {
-    company: 'Open Source',
-    role: 'Contributor',
-    period: '2023 — Present',
+    company: "Security Community",
+    role: "CTF Competitor & Security Enthusiast",
+    period: "2023 — Present",
     points: [
-      'Contributed bug fixes and documentation improvements.',
-      'Reviewed PRs and wrote tests to improve DX.'
-    ]
-  }
-]
+      "Actively participated in Capture The Flag competitions (HackTheBox, TryHackMe, PicoCTF).",
+      "Published writeups and security research to help the community learn.",
+      "Developed hands-on expertise in exploitation techniques and defensive strategies.",
+    ],
+  },
+];

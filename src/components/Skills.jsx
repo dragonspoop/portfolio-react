@@ -5,46 +5,43 @@ export default function Skills() {
     <section id="skills" className="section">
       <div className="container">
         <h2>Skills</h2>
-        <p className="sub">Tech I use regularly.</p>
+        <p className="sub">Technologies and tools I'm proficient with.</p>
         <div className="grid grid-3">
           {skills.map((s) => (
             <div key={s.group} className="card">
-              <h3 style={{ marginBottom: 15 }}>{s.group}</h3>
-              {s.items.map(({ name, progress }) => (
-                <div
-                  key={name}
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    marginBottom: 15,
-                    alignItems:'center'
-                  }}
-                >
+              <h3 style={{ marginBottom: 20, fontSize: 18, fontWeight: 600 }}>
+                {s.group}
+              </h3>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+                {s.items.map(({ name }) => (
                   <span
+                    key={name}
                     style={{
-                      fontSize: 15,
-                      color: "var(--muted)",
-                      border: 1,
-                      borderColor: "rgba(255,255,255,.2)",
-                      borderStyle: "solid",
-                      borderRadius: 5,
-                      padding:5
+                      fontSize: 13,
+                      color: "var(--text)",
+                      border: "1px solid rgba(120, 140, 160, 0.5)",
+                      backgroundColor: "rgba(50, 60, 70, 0.25)",
+                      borderRadius: 6,
+                      padding: "6px 12px",
+                      transition: "all 0.3s ease",
+                      cursor: "default",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.target.style.borderColor = "rgba(150, 170, 190, 0.9)";
+                      e.target.style.backgroundColor = "rgba(60, 70, 80, 0.35)";
+                      e.target.style.boxShadow =
+                        "0 0 10px rgba(120, 140, 160, 0.25)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.target.style.borderColor = "rgba(120, 140, 160, 0.5)";
+                      e.target.style.backgroundColor = "rgba(50, 60, 70, 0.25)";
+                      e.target.style.boxShadow = "none";
                     }}
                   >
                     {name}
                   </span>
-                  <div
-                    style={{
-                      width:`${progress*2}px`,
-                      backgroundColor: "#016891ff",
-                      borderRadius: "10px",
-                      overflow: "hidden",
-                      boxShadow:'1px 2px rgba(0, 187, 255)',
-                      height: "7px",
-                    }}
-                  ></div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           ))}
         </div>
